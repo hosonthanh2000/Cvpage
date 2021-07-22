@@ -1,0 +1,35 @@
+.profile_work_wrapper{
+    padding-left: 5px; 
+    margin-bottom: 10px;     
+}
+
+.title{
+    padding: 0 10px;
+    width: 50%;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color:#363636;
+    background-color: #3f69ed;
+    clip-path: polygon(0 0, 0 100%, 30% 100%, 100% 100%, 95% 50%, 100% 0, 30% 0);
+    word-break: break-word;
+
+}
+.content{
+    font-size: 0.9rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    word-break: break-word;
+    
+    .content_title{
+        color: #223781;
+        font-weight: bold;
+        font-size: 1rem;
+        word-break: break-word;
+        &:hover{
+            color: black;
+            background-color: white;
+        }
+    }
+}
+

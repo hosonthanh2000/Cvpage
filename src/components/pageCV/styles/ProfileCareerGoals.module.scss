@@ -1,0 +1,19 @@
+.profile_CareerGoals_wrapper{
+    color: white;
+    padding-left: 5px;
+    margin-bottom: 10px;
+
+    .title{
+        word-break: break-word;
+        width: 100%;
+        display: inline-block;
+        background-color:#02081d;
+        text-align: center;
+        font-size: 1.5rem;
+        clip-path: polygon(0 0, 0 100%, 30% 100%, 100% 100%, 95% 50%, 100% 0, 30% 0);
+    }
+    .content{
+        word-break: break-word;
+        font-size: 0.9rem;
+    }
+}
