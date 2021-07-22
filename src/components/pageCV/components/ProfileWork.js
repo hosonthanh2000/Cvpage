@@ -12,7 +12,9 @@ const ProfileWork = () =>{
 
     const element = work.map((value,index)=>{
         return (
-            <a key={index} className={styles.content_title} target="_target"  href={value.link}>{value.link}</a>   
+           <div>
+            <a key={index} className={styles.content_title} target="_target"  href={value.link}>{value.link}</a> 
+            </div>   
         )
     })
 
