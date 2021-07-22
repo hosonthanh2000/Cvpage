@@ -5,7 +5,9 @@ import icon from '../constant/styles/Icon.module.scss'
 const ProfileWork = () =>{
     const product = "fa fa-bookmark " + icon.style;
     const [work,setWork] = useState(
-        [{link:'https://hosonthanh2000.github.io/ContentBox/'}]
+        [{link:'https://hosonthanh2000.github.io/ContentBox/'},
+         {link:'https://hosonthanh2000.github.io/Cvpage/'},
+        ]
     )
 
     const element = work.map((value,index)=>{
